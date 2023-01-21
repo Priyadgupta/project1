@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Childcare Website</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+</head>
+<body>
+
+    <header><br>
+        <div class="container">
+        <img src="img/top.jpg" alt="top" >
+        
+        <div class="centered"><h1> Fun and Learn Early Learning Centre</h1>
+        <h3>YOUR CHILD IN SAFE HANDS</h3></div>
+        </div>
+
+     </header>
+     <nav>
+        <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a>Our Services</a>
+            <ul>
+                <li><a href="nursery.html">Nursery</a></li>
+                <li><a href="toodler.html">Toodler</a></li>
+                <li><a href="preschool.html">Pre-School</a></li>      
+           </ul>
+                <li><a href="parent.html">Parent Portal</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="career.html">Careers</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section>
+            
+           
+            <div class="contact_form">
+                <h1 class="form">Contact Us</h1>
+                <form action="MAILTO:priyagupta127@gmail.com" method="post" enctype="text/plain" name="contactform">
+                    
+                    <label>First name</label>
+                    <input type="text" name="firstname" placeholder="Your First name.." required/>
+                    <br>
+                    
+                    <label>Last name</label>
+                    <input type="text" name="lastname" placeholder="Your lastname.." required/>
+                    <br>
+                    <label>Mobile No.</label>
+                    <input type="text" name="country" placeholder="Your contact number.." required>
+                    <br>
+                    <label>Email</label>
+                    <input type="email" name="email" placeholder="Your email.." required>
+                    <br>
+                    <br>
+                    <label>How did you hear about us?</label>
+                    
+                    <input type="radio" id="website" name="comments" value="Website">
+                     <label>Website</label>
+                     
+                 
+                    <input type="radio" id="fb" name="comments" value="Facebook">
+                    <label>Facebook</label>
+                    
+         
+                     <input type="radio" id="other" name="comments" value="Others">
+                     <label>Others</label>
+                    <br><br><br>
+                    <label>Preferred Contact Method:</label>
+
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="vehicle1">Mobile</label>
+
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                    <label for="vehicle2">Email</label>
+
+                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                    <label for="vehicle3">SMS</label><br>
+                    <br><br>
+                    <label>Intrested Service:</label>
+
+                    <select name="Services" id="cars">
+                        <option value="Nursery">Nursery</option>
+                        <option value="Toddler">Toodler</option>
+                        <option value="Preschool">Pre-School</option>
+                       
+                      </select><br><br>
+
+                      <label>Date:</label>
+                        <input type="text" id="datepicker"><br><br>
+
+                    <label>Comments</label>
+                    <textarea name="comments" rows="10" cols="15" placeholder="start here......"></textarea>
+                    <br>
+                    <input  type="submit" class="show"  value="SEND"/>
+                                     
+                      
+                  </form>
+                </div>
+
+                <div class="map" id="map"><h1>Location</h1><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26521.565506705883!2d150.95268133632138!3d-33.80726276913278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12a29618b7b9ef%3A0x7556fcfa4b3ff98e!2sDomino&#39;s%20Pizza%20Wentworthville!5e0!3m2!1sen!2sau!4v1654152604221!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+                <div class="location">   
+                    
+                    <h1 class="feedback">Address</h1>
+                    <h2>Address</h2>
+                <p>101 Grafieldd Road</p>
+                <p>Sydney</p>
+                <p>New South Wales - 2000</p>
+
+                <h2>Phone Number</h2>
+                <p>02-213456778</p>
+
+                <h2>Email</h2>
+                <p>funandlearn@edu.net.au</p>
+            </div>
+         
+    </section>
+
+  
+
+<script src="contact.js"></script>
+
+        <footer>copright 2022. website created by Priya.</footer>
+    
+</body>
+ 
+</html>

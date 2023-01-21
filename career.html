@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Childcare Website</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="css/career.css">
+</head>
+<body>
+
+    <header>
+        <div class="text">
+            <h1 class="h1"> Fun and Learn Early Learning Centre</h1>
+            <h3 class="h3">YOUR CHILD IN SAFE HANDS</h3>
+        
+        <img src="img/top.jpg" alt="top" >
+        
+        
+        </div>
+
+     </header>
+        <nav>
+            <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a>Our Services</a>
+                <ul>
+                    <li><a href="nursery.html">Nursery</a></li>
+                    <li><a href="toodler.html">Toodler</a></li>
+                    <li><a href="preschool.html">Pre-School</a></li>      
+               </ul>
+                    <li><a href="parent.html">Parent Portal</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="career.html">Careers</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        
+        <div class="container">
+            <h2>Expression of Interest</h2>
+            
+            <form action="mailto:priyagupta127@gmail.com" class="form">
+              <label>First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+          
+              <label>Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+              <label>Email</label>
+              <input type="text" id="email" name="lastname" required>
+
+              <label>Mobile</label>
+              <input type="text" id="mob" required>
+          
+              <label>State</label>
+              <select id="country" name="country">
+                <option value="australia">NSW</option>
+                <option value="canada">VIC</option>
+                <option value="usa">QLD</option>
+              </select>
+
+              <label>Select qualification</label>
+
+              <input type="checkbox" name="vehicle1" value="Bike">
+              <label>Certificate III</label><br>
+
+              <input type="checkbox" name="vehicle2" value="Car">
+              <label>Diploma </label><br>
+
+              <input type="checkbox" name="vehicle3" value="Boat" checked>
+              <label>ECT</label><br><br><br>
+
+              <label>How did you hear about us?</label>
+                    
+                    <input type="radio" id="website" name="comments" value="Website">
+                     <label>Website</label>
+                     
+                 
+                    <input type="radio" id="fb" name="comments" value="Facebook">
+                    <label>Facebook</label>
+                    
+         
+                     <input type="radio" id="other" name="comments" value="Others">
+                     <label>Others</label><br><br><br>
+
+                     <label>Experience in Industry:</label>
+
+                    <select name="Services" id="cars">
+                        <option value="Nursery">No Experience</option>
+                        <option value="Toddler">over 1 year</option>
+                        <option value="Preschool">over 2 year</option>
+                       
+                      </select>
+
+              <label>Date of Submission:</label>
+              <input type="text" id="datepicker">
+
+              <label>Current Resume:</label>&nbsp;&nbsp;
+
+
+              <input type='file' onchange='onFilePicked(event)' ><br>
+            
+             
+          <br>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+          <script src="career.js"></script>
+        <footer>copright 2022. website created by Priya.</footer>
+    
+</body>
+ 
+</html>

@@ -1,0 +1,156 @@
+
+header {
+    background-color: rgb(241, 207, 211);
+    padding: 2px;
+    height: 10%;
+    width: 100%;
+    }
+    img {
+     width: 100%;
+     height: 500px;
+     border-radius: 20px;
+     border:2px solid rgb(215, 146, 113);
+  
+     }
+     .text {
+       position: relative;
+   }
+   .h1{
+     position: absolute;
+     top: 20px;
+     left: 20px;
+     margin-left: 800px;
+  }
+  .h3 {
+   
+   position: absolute;
+     top: 80px;
+     left: 20px;
+     
+  }
+    
+   nav {
+     display: flex;
+     background-color: rgb(196, 101, 172);
+     width: 100%;
+     height: 50px; 
+     }
+     
+   ul {
+   margin: 1px;
+   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+   list-style: none;
+   padding: 1px;
+   font-size: 1.5rem;
+    }
+   li a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 1px 16px;
+     text-decoration: none;
+     font-size: 1.5rem;
+   }
+   nav ul li {
+     float: left;
+     margin-right: 0.5em;
+   }
+   
+
+  
+
+ 
+ li ul{
+  display: none;   
+ }
+ ul li a:hover{
+   background: maroon;
+ }
+ 
+ li:hover ul{
+   display: block;
+   position: absolute;
+ }
+ 
+ li:hover li{
+   float: none;
+   font-size: 11px;
+ }
+ li:hover a {
+  background: teal;
+}
+ 
+section{
+    background-color: rgb(232, 233, 168);
+    width: 40%;
+    height: 500px;
+    display: inline-block;
+    position: static;
+    object-fit: cover;
+    margin-top: 1px;
+    
+}
+
+aside{
+    background-color: lightsteelblue;
+    width: 60%;
+    height: 500px;
+    display:block;
+    float: right;
+    margin-top: 1px;
+    
+}
+
+
+
+section img {
+    border: 1px solid rgb(198, 226, 132); 
+    border-radius: 2px;
+    object-fit: cover;
+    width: 900px;
+    height: 450px;
+    margin-left: 25px;
+  }
+
+ h1 {
+   font-family: Helvetica, sans-serif;
+   font-size: 40px;
+   color: rgb(243, 115, 18);
+   text-align: center;
+ }
+ h3{
+  padding-left: 20px;
+  font-size: 1.75rem;
+  text-align: center;
+  right: 100px;
+}
+ p{
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+section div{
+    border-radius: 5px;
+    background-color: bisque;
+    padding:0px;
+    width: 25%;
+    display:inline-block;
+    border: 2px solid salmon;
+    }
+
+
+    footer {
+      text-align: center;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      font-size: 1rem;
+      margin-top: 1px;
+      background-color: rgb(196, 101, 172);
+      color: white;
+      padding: 10px;
+    }
+
+
+ 
+ 
